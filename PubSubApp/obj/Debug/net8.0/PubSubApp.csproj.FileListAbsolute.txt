@@ -32,3 +32,6 @@
 /home/igor/Faks/SNUS/Vežbe/Vežbe 7/ChaoticCupid/PubSubApp/obj/Debug/net8.0/PubSubApp.pdb
 /home/igor/Faks/SNUS/Vežbe/Vežbe 7/ChaoticCupid/PubSubApp/obj/Debug/net8.0/PubSubApp.genruntimeconfig.cache
 /home/igor/Faks/SNUS/Vežbe/Vežbe 7/ChaoticCupid/PubSubApp/obj/Debug/net8.0/ref/PubSubApp.dll
+/home/igor/Faks/SNUS/Vežbe/Vežbe 7/ChaoticCupid/PubSubApp/bin/Debug/net8.0/appsettings.Development.json
+/home/igor/Faks/SNUS/Vežbe/Vežbe 7/ChaoticCupid/PubSubApp/bin/Debug/net8.0/appsettings.json
+/home/igor/Faks/SNUS/Vežbe/Vežbe 7/ChaoticCupid/PubSubApp/obj/Debug/net8.0/PubSubApp.sourcelink.json

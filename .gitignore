@@ -1,0 +1,39 @@
+## .NET/C#
+bin /
+obj /
+Debug /
+Release /
+TestResults /
+artifacts /
+
+## Visual Studio
+.vs /
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Code
+.vscode /
+!.vscode / settings.json
+!.vscode / tasks.json
+!.vscode / launch.json
+!.vscode / extensions.json
+
+## Rider
+.idea /
+*.sln.iml
+
+## NuGet
+*.nupkg
+*.snupkg
+* */ packages/*
+!**/packages / build /
+!**/ packages / repositories.config
+
+## Build logs
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db

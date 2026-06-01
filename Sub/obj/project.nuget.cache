@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DRMZ+oH3fvA=",
+  "dgSpecHash": "Cy7ffz0KGZg=",
   "success": true,
   "projectFilePath": "/home/igor/Faks/SNUS/Vežbe/Vežbe 7/ChaoticCupid/Sub/Sub.csproj",
   "expectedPackageFiles": [
@@ -20,7 +20,8 @@
     "/home/igor/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/home/igor/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
     "/home/igor/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512",
-    "/home/igor/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.16/microsoft.aspnetcore.app.ref.9.0.16.nupkg.sha512"
+    "/home/igor/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.27/microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
+    "/home/igor/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.27/microsoft.netcore.app.host.linux-x64.8.0.27.nupkg.sha512"
   ],
   "logs": []
 }
