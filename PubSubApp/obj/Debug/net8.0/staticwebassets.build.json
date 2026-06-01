@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "G8z4MP4yScUWeYvNGEWNasN+OMKu1F0cbJVeSqq0a00=",
+  "Source": "PubSubApp",
+  "BasePath": "_content/PubSubApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
