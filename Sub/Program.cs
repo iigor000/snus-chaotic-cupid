@@ -89,8 +89,15 @@ namespace ChaoticCupid.Sub
                         continue;
                     }
 
-                    await connection.InvokeAsync("BlockUser", blocked);
-                    Console.WriteLine($"[SUB] Korisnik {blocked} je blokiran.");
+                    var result = await connection.InvokeAsync<BlockResult>("BlockUser", blocked);
+                    if (result.Ok)
+                    {
+                        Console.WriteLine($"[SUB] Korisnik {blocked} je uspesno blokiran.");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"[SUB] Greska: {result.Error}");
+                    }
                     continue;
                 }
 
@@ -193,4 +200,6 @@ namespace ChaoticCupid.Sub
     public record LetterPayload(string SenderUsername, string SenderCity, int SenderAge, string SenderPhone, string ResponseMessage);
 
     public record InitResult(bool Ok, string? Error);
+
+    public record BlockResult(bool Ok, string? Error);
 }

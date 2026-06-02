@@ -51,4 +51,11 @@ namespace ChaoticCupid.PubSubApp
 
         public static InitResult Fail(string error) => new(false, error);
     }
+
+    public record BlockResult(bool Ok, string? Error)
+    {
+        public static BlockResult Success() => new(true, null);
+
+        public static BlockResult Fail(string error) => new(false, error);
+    }
 }
